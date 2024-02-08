@@ -16,6 +16,7 @@ import {sayHelloPrompt} from "./prompts/say-hello.prompt";
 //     console.log(text);
 // })();
 
+// ! Taki zapis jest podatny na prompt injecton. To ma nam tylko pomóc w przechowywaniu promptów, a nie w zaezpieczeniu kodu.
 (async () => {
     const text = await sayHelloPrompt.format({
         name: 'Jakub',
