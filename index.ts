@@ -1,5 +1,5 @@
-import {HuggingFaceInference} from '@langchain/community/llms/hf';
-import {HUGGING_FACE_API_KEY} from "./config";
+// import {HuggingFaceInference} from '@langchain/community/llms/hf';
+// import {HUGGING_FACE_API_KEY} from "./config";
 import {sayHelloPrompt} from "./prompts/say-hello.prompt";
 
 // Hugging Face LLM's
